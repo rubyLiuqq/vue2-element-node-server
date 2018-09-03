@@ -1,0 +1,35 @@
+{
+  "appenders": {
+    "out": { "type": "console" },
+    "debug": {
+      "type": "dateFile",
+      "filename": "logs/debug/",
+      "pattern": "yyyy-MM-dd-debug.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 1024,
+      "backups": 4
+    },
+    "infor": {
+      "type": "dateFile",
+      "filename": "logs/info/",
+      "pattern": "yyyy-MM-dd-info.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 1024,
+      "backups": 4
+    },
+    "err": {
+      "type": "dateFile",
+      "filename": "logs/error/",
+      "pattern": "yyyy-MM-dd-error.log",
+      "alwaysIncludePattern": true,
+      "maxLogSize": 1024,
+      "backups": 4
+    }
+  },
+  "categories": {
+    "default": { "appenders": [ "out" ], "level": "info" },
+    "logDebug": { "appenders": [ "debug" ], "level": "debug" },
+    "logInfo": { "appenders": [ "infor" ], "level": "info" },
+    "logError": { "appenders": [ "err" ], "level": "error" }
+  }
+}

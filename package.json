@@ -1,0 +1,44 @@
+{
+  "name": "vue2-element-node-server",
+  "version": "1.0.0",
+  "description": "node server of vue2-element program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubyLiuqq/vue2-element-node-server.git"
+  },
+  "keywords": [
+    "vue2",
+    "node"
+  ],
+  "author": "rubyLiuqq",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cheerio": "^1.0.0-rc.2",
+    "config-lite": "^2.0.0",
+    "express": "^4.15.4",
+    "express-formidable": "^1.0.0",
+    "express-session": "^1.15.5",
+    "express-winston": "^2.4.0",
+    "log4js": "^2.3.3",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.7",
+    "node-schedule": "^1.2.3",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "async": "^2.3.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rubyLiuqq/vue2-element-node-server/issues"
+  },
+  "homepage": "https://github.com/rubyLiuqq/vue2-element-node-server#readme"
+}
